@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ron Wise Portfolio</title>
+    <!--This brings in Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!--This brings in my stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <a class="nav-link active" aria-current="page" href="#">Ron Wise</a>
+        <a class="nav-link" href="#">About Me</a>
+        <a class="nav-link" href="#">Projects</a>
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+    </nav>
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+            <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                    world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive
+                    grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            </div>
+        </div>
+    </div>
+    <main class="container-fluid pb-3">
+        <div class="d-grid gap-3" style="grid-template-columns: 1fr 2fr;">
+            <div class="bg-light border rounded-3">
+                <br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="bg-light border rounded-3">
+                <br><br><br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </main>
+    <div class="container">
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <h1>Projects</h1>
+        </figure>
+
+        <div class="card">
+            <div class="card-header">
+                Static Website
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="assets/Screen Shot 2021-04-13 at 8.11.26 PM.png" alt="">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas totam
+                                    modi quis obcaecati laboriosam aperiam, sapiente autem magni esse aspernatur fugit
+                                    odit, fugiat dolor. Placeat perspiciatis facere nihil corporis necessitatibus? Lorem
+                                    ipsum dolor sit amet consectetur adipisicing elit. Itaque, necessitatibus eligendi?
+                                    Quo impedit cum quam nostrum alias, quas repellat quod aspernatur vel ipsam
+                                    voluptate mollitia ab repellendus fugit aliquam beatae?</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="Contact">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mnqlqevl"
+            method="post">
+            <fieldset id="fs-frm-inputs">
+                <div class="row align-content center">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </div>
+            </fieldset>
+            <input type="submit" class="btn btn-primary" value="Submit">
+        </form>
+    </section>
+
+    <div class="container-fluid">
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <small class="d-block mb-3 text-muted">© 2017–2021</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Projects</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Static Site</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">CSS Creature</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Other Platforms</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">GitHub</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">LinkedIn</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--This is req for bootstrap to load-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
