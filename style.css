@@ -11,10 +11,14 @@ width: 100%;
 
 .form {
     padding: 8px 16px;
+    margin-right: 40%;
+}
+
+#contact-submit {
+    margin-top: 10px;
 }
 
 .container-fluid {
-    /* width: 20%; */
     text-align: left;
 }
 
@@ -33,7 +37,7 @@ body {
 
 .flex-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding-bottom: 120px;
 }
 
@@ -75,6 +79,7 @@ h1 {
 
 #aboutText {
     margin-bottom: 100px;
+    margin-right: 40%;
 }
 
 .projects {
@@ -92,4 +97,5 @@ h1 {
 
 #footer {
     padding: 8px 16px;
+    margin-bottom: 50px;
 }
