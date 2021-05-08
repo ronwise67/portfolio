@@ -4,6 +4,92 @@ width: 100%;
 }
 
 #contact {
-    padding-left: 20%;
-    padding-right: 20%;
+    justify-content: left;
+    margin: 0%;
+    padding: 8px 16px;
+}
+
+.form {
+    padding: 8px 16px;
+}
+
+.container-fluid {
+    /* width: 20%; */
+    text-align: left;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #212529;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+#intro {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 45pt;
+    text-align: right;
+}
+
+.introPhoto {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+#funFact {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20pt;
+    text-align: right;
+    margin: 0%;
+}
+
+.card {
+    background-color: #212529;
+}
+
+h1 {
+    font-family: "Rajdhani", sans-serif;
+    color: white;
+}
+
+.flex-grid {
+    display: flex;
+  }
+  .col {
+    flex: 1;
+    color: white;
+  }
+
+#aboutText {
+    margin-bottom: 100px;
+}
+
+.projects {
+    padding: 8px 16px;
+    margin-bottom: 100px;
+}
+
+.social {
+    height: 40px;
+    width: 40px;
+    margin-top: 50px;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+#footer {
+    padding: 8px 16px;
 }
